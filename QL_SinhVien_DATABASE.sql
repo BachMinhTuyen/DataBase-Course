@@ -1,4 +1,4 @@
-﻿CREATE DATABASE QL_SINHVIEN
+CREATE DATABASE QL_SINHVIEN
 GO
 
 USE QL_SINHVIEN
@@ -102,9 +102,9 @@ VALUES ('SH', N'Công nghệ sinh học'),
 INSERT INTO LOP (MALOP, TENLOP, SISO, LOPTRUONG, MAKH)
 VALUES ('10DHSH1',N'10 Đại học Sinh học 1', 55, 'SV008', 'SH'),
 ('10DHTH1',N'10 Đại học Tin học 1', 50, 'SV001', 'TH'),
-('11DHTH2',N'10 Đại học Tin học 2', 40, 'SV005', 'TH'),
-('12DHTC1',N'10 Đại học Tài chính 1', 75, 'SV009', 'TC'),
-('12DHTP1',N'10 Đại học Thực phẩm 1', 60, 'SV007', 'TP')
+('11DHTH2',N'11 Đại học Tin học 2', 40, 'SV005', 'TH'),
+('12DHTC1',N'12 Đại học Tài chính 1', 75, 'SV009', 'TC'),
+('12DHTP1',N'12 Đại học Thực phẩm 1', 60, 'SV007', 'TP')
 
 INSERT INTO SINHVIEN (MASV, HOTEN, NGSINH, GTINH, DCHI, MALOP)
 VALUES ('SV001', N'Trần Lệ Quyên', '1995-01-21', N'Nữ', N'TPHCM', '10DHTH1'),
